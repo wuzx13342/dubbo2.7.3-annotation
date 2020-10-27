@@ -327,7 +327,6 @@ public abstract class AbstractInterfaceConfig extends AbstractMethodConfig {
      * @param provider whether it is the provider side
      * @return
      *
-     *
      */
     protected List<URL> loadRegistries(boolean provider) {
         // check && override if necessary
